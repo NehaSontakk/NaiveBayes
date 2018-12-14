@@ -1,0 +1,37 @@
+   Duration           Start date     ...      Bike number  Member type
+0       435  2018-08-01 00:00:48     ...           W20369       Member
+1      1001  2018-08-01 00:01:30     ...           W21068       Member
+2      1075  2018-08-01 00:04:01     ...           W21003       Member
+3       896  2018-08-01 00:04:18     ...           W22766       Casual
+4      1517  2018-08-01 00:04:26     ...           W00232       Member
+
+[5 rows x 9 columns]
+Duration                0
+Start date              0
+End date                0
+Start station number    0
+Start station           0
+End station number      0
+End station             0
+Bike number             0
+Member type             0
+dtype: int64
+
+
+   Duration  Start station number     ...       Bike number  Member type
+0       435                 31621     ...              1480            1
+1      1001                 31278     ...              2059            1
+2      1075                 31503     ...              2004            1
+3       896                 31018     ...              3441            0
+4      1517                 31289     ...               173            1
+
+[5 rows x 5 columns]
+(403866, 5)
+((85000, 5), (318866, 5))
+(318866,)
+
+
+25179.0
+
+#Accuracy
+0.82292381606
