@@ -13,6 +13,7 @@ data=pd.read_csv('/home/ubuntu/Assignments/LP-1/DA/A4/201808-capitalbikeshare-tr
 print(data.head())
 print(data.isnull().sum())
 
+#Drop data columns that are not needed
 data=data.drop('Start date',axis=1)
 data=data.drop('End date',axis=1)
 data=data.drop('Start station',axis=1)
