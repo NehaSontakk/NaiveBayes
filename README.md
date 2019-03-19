@@ -21,3 +21,7 @@ The independent variables (x) can be added as a feature vector
 eg: x = {size of fruit, colour of fruit, shape of fruit}
 
 The dependent variable will belong to two categories since its a classification problem.
+
+
+Again, the code itself is insanely commented and should provide enough guidance.
+The accuracy is low because I've used random dummy data and it's not enough to gauge probability properly but what's important is the procedure and it will work for any other dataset. I'll show that when I get time.
